@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stranica o važnim utjecajima na mentalno zdravlje mladih">
+    <meta name="keywords" content="mentalno zdravlje, mladi, stres, depresija, anksioznost">
+    <link rel="stylesheet" href="stil.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="icon" type="image/x-icon" href="martin.jfif">
+   
+    <title>Važni Utjecaji</title>
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <a href="index.html">
+            <img src="logo.png" alt="Logo tvrtke" class="header-logo" height="100px" width="100px">
+        </a>
+    </div>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="onama.html">O nama</a></li>
+            <li><a href="novosti.html">Novosti</a></li>
+            <li><a href="usluge.html">Usluge</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <section class="contact-section">
+            <h2>Pošaljite nam upit</h2>
+            <form id="contactForm" action="https://formspree.io/f/mzzjbzep" method="POST">
+                <label for="name">Ime:</label>
+                <input type="text" id="name" name="name" required> <br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="primjer@domena.com"> <br>
+
+                <label for="message">Poruka:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Pošalji</button>
+            </form>
+        </section>
+
+        <section class="map-section">
+            <h2>Naša lokacija</h2>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.4037563248266!2d15.973480976645108!3d45.82319830941375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d71abf0cc1a3%3A0x2eda5a9a083b47a!2sJurjevska%20ul.%2034%2C%2010000%2C%20Zagreb!5e0!3m2!1shr!2shr!4v1757884966910!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-content">
+   
+        <div class="footer-section contact">
+            <h3>Kontakt</h3>
+            <p>Email: <a href="mailto:info@sigurnost.hr">info@sigurnost.hr</a></p>
+            <p>Telefon: <a href="tel:+01 4681 222">+01 4681 222</a></p>
+            <p>Adresa: <a href="https://maps.app.goo.gl/cX97ouRmMZHoY5Rt6" target="_blank">
+                Jurjevska 34, 10000 Zagreb
+            </a></p>
+            <p>Radno vrijeme: Pon-Pet 09:00 - 17:00</p>
+        </div>
+
+     
+        <div class="footer-section legal">
+            <h3>Pravne informacije</h3>
+            <ul>
+               <li><a href="https://digital-strategy.ec.europa.eu/hr/policies/online-privacy" target="_blank">Politika privatnosti</a></li>
+                    <li><a href="https://www.fcbarcelona.com/en/" target="_blank" >Uvjeti korištenja</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section social">
+            <h3>Pratite nas</h3>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
